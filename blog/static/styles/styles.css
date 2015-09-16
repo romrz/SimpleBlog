@@ -1,0 +1,95 @@
+/* CSS */
+
+body 	{
+	background-color: #DBDBDB;
+}
+
+*	{
+	font-family: Calibri;
+	color: #333;
+}
+
+a 	{
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover	{
+	color: #111;
+}
+
+.container	{
+	margin: 20px auto;
+	width: 60%;
+}
+
+
+.menu	{
+	height:auto;
+	width: 100%;
+}
+
+.menu ul	{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li	{
+	display: inline-block;
+	height: 100%;
+	margin-right: 10px;	
+}
+
+.menu ul li a 	{
+	display: block;
+	line-height: 30px;
+}
+
+.info	{
+	font-style: cursive;
+	font-size: 10px;
+}
+
+.comments	{
+	margin: 40px 0;
+}
+
+.stack-form input[type="text"],
+.stack-form input[type="password"],
+.stack-form input[type="email"],
+.stack-form input[type="submit"],
+.stack-form label,
+.stack-form button,
+.stack-form select,
+.stack-form textarea	{
+
+	display: block;
+
+}
+
+.inline	{
+
+	display: inline-block;
+
+}
+
+.comment	{
+
+	border: #CCC thin solid;
+	margin: 5px;
+	padding: 5px;
+
+}
+
+.comment .comment	{
+
+	margin-left: 20px;
+
+}
+
+#cancel-reply	{
+
+	display: none;
+
+}

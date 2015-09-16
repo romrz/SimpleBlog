@@ -1,0 +1,1 @@
+<h3>El articulo se ha eliminado correctamente.</h3>
